@@ -30,7 +30,7 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"game.exe"
+				"game"
 			],
 			"targetId" : "game::@6890427a1f51a3e7e1df",
 			"targetIndex" : 0,
