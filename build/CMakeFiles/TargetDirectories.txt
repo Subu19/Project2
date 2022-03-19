@@ -1,7 +1,0 @@
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/game.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/edit_cache.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/rebuild_cache.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/list_install_components.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/install.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/install/local.dir
-/home/chandan/sysprog/GItbrr/GitHub/Project2/build/CMakeFiles/install/strip.dir
