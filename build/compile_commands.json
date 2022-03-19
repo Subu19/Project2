@@ -1,12 +1,12 @@
 [
 {
-  "directory": "D:/Documents/Projects/Project2/build",
-  "command": "D:/msys64/mingw64/bin/g++.exe  @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles/game.dir/src/Game.cpp.obj -c D:/Documents/Projects/Project2/src/Game.cpp",
-  "file": "D:/Documents/Projects/Project2/src/Game.cpp"
+  "directory": "/home/chandan/sysprog/GItbrr/GitHub/Project2/build",
+  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -g -o CMakeFiles/game.dir/src/Game.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/src/Game.cpp",
+  "file": "/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Game.cpp"
 },
 {
-  "directory": "D:/Documents/Projects/Project2/build",
-  "command": "D:/msys64/mingw64/bin/g++.exe  @CMakeFiles/game.dir/includes_CXX.rsp -g -o CMakeFiles/game.dir/main.cpp.obj -c D:/Documents/Projects/Project2/main.cpp",
-  "file": "D:/Documents/Projects/Project2/main.cpp"
+  "directory": "/home/chandan/sysprog/GItbrr/GitHub/Project2/build",
+  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -g -o CMakeFiles/game.dir/main.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/main.cpp",
+  "file": "/home/chandan/sysprog/GItbrr/GitHub/Project2/main.cpp"
 }
 ]
