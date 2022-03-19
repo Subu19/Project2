@@ -1,0 +1,7 @@
+D:/Documents/Projects/Project2/build/CMakeFiles/game.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/edit_cache.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/rebuild_cache.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/list_install_components.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/install.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/install/local.dir
+D:/Documents/Projects/Project2/build/CMakeFiles/install/strip.dir
