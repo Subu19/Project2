@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/chandan/sysprog/GItbrr/GitHub/Project2/build",
-  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -g -o CMakeFiles/game.dir/src/Game.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/src/Game.cpp",
+  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -isystem /home/chandan/sysprog/GItbrr/GitHub/Project2/SFML-2.5.1/include -g -o CMakeFiles/game.dir/src/Game.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/src/Game.cpp",
   "file": "/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Game.cpp"
 },
 {
   "directory": "/home/chandan/sysprog/GItbrr/GitHub/Project2/build",
-  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -g -o CMakeFiles/game.dir/main.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/main.cpp",
+  "command": "/bin/g++ -I/home/chandan/sysprog/GItbrr/GitHub/Project2/src/Headers -isystem /home/chandan/sysprog/GItbrr/GitHub/Project2/SFML-2.5.1/include -g -o CMakeFiles/game.dir/main.cpp.o -c /home/chandan/sysprog/GItbrr/GitHub/Project2/main.cpp",
   "file": "/home/chandan/sysprog/GItbrr/GitHub/Project2/main.cpp"
 }
 ]

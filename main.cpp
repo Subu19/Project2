@@ -1,4 +1,4 @@
-#include <SFML/Graphics.hpp>
+#include "SFML-2.5.1/include/SFML/Graphics.hpp"
 #include "src/Headers/Game.h"
 // int main()
 // {
