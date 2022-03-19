@@ -139,10 +139,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/bin/g++"
 		},
 		{
@@ -267,10 +267,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/bin/gcc"
 		},
 		{
@@ -1123,7 +1123,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/lib64/cmake/SFML"
+			"value" : "/home/chandan/sysprog/GItbrr/GitHub/Project2/SFML-2.5.1/lib/cmake/SFML"
 		},
 		{
 			"name" : "SFML_DOC_DIR",
