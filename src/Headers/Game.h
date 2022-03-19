@@ -8,10 +8,13 @@ class Game {
         sf::VideoMode videoMode;
         //get events
         sf::Event ev;
+        sf::RectangleShape enemy;
         //declare initialize veriables
         void initVeriable();
         //declare init window
         void initWindow();
+
+        void initEnemy();
     public:
         //construction
         Game();

@@ -1,19 +1,26 @@
-#include "Headers/Game.h"
+#include "Game.h"
 
 void Game::initVeriable(){
     this->window = nullptr;
 }
 
 void Game::initWindow(){
-    this->videoMode.height = 600;
-    this->videoMode.width = 500;
+    this->videoMode.height = this->videoMode.getDesktopMode().height;
+    this->videoMode.width =  this->videoMode.getDesktopMode().width;
+    
     this->window = new sf::RenderWindow(this->videoMode, "my game", sf::Style::Default);
+    this->window->setFramerateLimit(100);
 
 }
+void Game::initEnemy(){
+    this->enemy.setSize(sf::Vector2f(100.f,100.f));
+    this->enemy.setFillColor(sf::Color::Green);
 
+}
 Game::Game(){
     this->initVeriable();
     this->initWindow();
+    this->initEnemy();
 
 }
 Game::~Game(){
@@ -35,6 +42,18 @@ void Game::pollEvents(){
             if(this->ev.key.code == sf::Keyboard::Escape){
                 this->window->close();
             }
+            if(this->ev.key.code == sf::Keyboard::D){
+                this->enemy.setPosition(this->enemy.getPosition().x + 10.f,this->enemy.getPosition().y);
+            }
+            if(this->ev.key.code == sf::Keyboard::A){
+                this->enemy.setPosition(this->enemy.getPosition().x - 10.f,this->enemy.getPosition().y);
+            }
+             if(this->ev.key.code == sf::Keyboard::W){
+                this->enemy.setPosition(this->enemy.getPosition().x,this->enemy.getPosition().y - 10.f);
+            }
+             if(this->ev.key.code == sf::Keyboard::S){
+                this->enemy.setPosition(this->enemy.getPosition().x ,this->enemy.getPosition().y + 10.f);
+            }
             break;
         }
     }
@@ -51,9 +70,10 @@ void Game::update(){
 
 void Game::render(){
 
-    this->window->clear(sf::Color::Green);
+    this->window->clear(sf::Color::Black);
 
 //draw here
+this->window->draw(this->enemy);
 
     this->window->display();
 }
