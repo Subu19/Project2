@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(game CXX)
 
-
 project(game)
 add_executable(${PROJECT_NAME} 
     src/Game.cpp
